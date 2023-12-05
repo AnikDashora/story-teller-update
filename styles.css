@@ -1,0 +1,130 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+#nav{
+    background-color: #093824;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: ; */
+}
+.navigation{
+    /* margin-right: 480px; */
+    /* height: 60px; */
+    /* background-color: black; */
+    color:white;
+    text-decoration: none;
+    font-size: 30px;
+    /* display: flex; */
+    /* margin-left: 200px; */
+   
+
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    
+    /* position: relative; */
+    
+}
+
+
+body{
+    background-color:#473335 ;
+}
+#Heading{
+    text-align: center;
+    padding: 375px;
+    background-color: #C6CCB2;
+    color:#093824;
+    font-size: 50px;
+    
+}
+
+.Story-container{
+    width: 1325px;
+    height: 600px;
+    /* background-color: rgba(0,0,255,0.5); */
+    background-color: #BC9CB0;
+    margin:100px  ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    /* padding: 10px; */
+    
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    
+    /* position: relative; */
+    
+}
+
+
+
+h2{
+    position: relative;
+    top:20px;
+}
+
+
+.Story{
+    height: 100px;
+    width: 150px;
+    background-color: pink;
+    margin:50px;
+    padding:25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    transition: transform 0.3s ease-in-out;
+    color:black;
+}
+.Story:hover {
+    transform: scale(1.05);
+    
+}
+#Story1{
+    background-image: url(/st1pic.jpeg);
+    background-size: cover;
+}
+#Story2{
+    background-image: url(/st2pic.png);
+    background-size: cover;
+}
+#Story3{
+    background-image: url(/st3pic.jpeg);
+    background-size: cover;
+}
+#Story4{
+    background-image: url(/st3pic.jpeg);
+    background-size: cover;
+}
+#Story5{
+    background-image: url(/st5pic.jpg);
+    background-size: cover;
+}
+#Story6{
+    background-image: url(/st6pic.png);
+    background-size: cover;
+}
+#Story7{
+    background-image: url(/st7pic.jpg);
+    background-size: cover;
+}
+#Story8{
+    background-image: url(/st8pic.png);
+    background-size: cover;
+}
+
+
+
+

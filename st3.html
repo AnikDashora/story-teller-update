@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story 1</title>
+    <link rel="stylesheet" href="/st3.css">
+</head>
+<body>
+    <script>
+        const story1_ = [
+            "Once upon a time, in a land far, far away...",
+            "There lived a brave knight named Sir Lancelot...",
+            "He embarked on a quest to rescue a princess from a dragon...",
+            "With his trusty sword and shield, he set off on an epic adventure...",
+            "The journey was filled with challenges and surprises...",
+            "But in the end, Sir Lancelot defeated the dragon and saved the princess...",
+            "And they all lived happily ever after...",
+            "Many years later, a new adventure awaited Sir Lancelot...",
+            "A dark sorcerer had risen to power and threatened the kingdom...",
+            "Sir Lancelot was called upon to defeat the sorcerer and save the realm...",
+            "He faced powerful spells and terrifying creatures on his quest...",
+            "But his courage and determination prevailed once more...",
+            "The sorcerer was defeated, and the kingdom was safe...",
+            "Sir Lancelot's legend continued to grow, and he became a hero for all time...",
+            "And so, the story of Sir Lancelot's adventures lives on..."]
+    
+        function speakText(text) {
+        const speechUtterance = new SpeechSynthesisUtterance(text);
+        speechSynthesis.speak(speechUtterance);
+    }
+    </script>
+    <h1>Brave Knight</h1>
+    <div class="btn-cntr">
+        <button class="_Button" onclick="speakText(story1_)">Start</button>
+    </div>
+
+    <div class="content-box">
+        
+        <p>
+            "Once upon a time, in a land far, far away...",
+            "There lived a brave knight named Sir Lancelot...",
+            "He embarked on a quest to rescue a princess from a dragon...",
+            "With his trusty sword and shield, he set off on an epic adventure...",
+            "The journey was filled with challenges and surprises...",
+            "But in the end, Sir Lancelot defeated the dragon and saved the princess...",
+            "And they all lived happily ever after...",
+            "Many years later, a new adventure awaited Sir Lancelot...",
+            "A dark sorcerer had risen to power and threatened the kingdom...",
+            "Sir Lancelot was called upon to defeat the sorcerer and save the realm...",
+            "He faced powerful spells and terrifying creatures on his quest...",
+            "But his courage and determination prevailed once more...",
+            "The sorcerer was defeated, and the kingdom was safe...",
+            "Sir Lancelot's legend continued to grow, and he became a hero for all time...",
+            "And so, the story of Sir Lancelot's adventures lives on..."
+        </p>
+
+        
+    </div>
+</body>
+</html>

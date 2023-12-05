@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+body{
+    background-image: url(/st5pic.jpg) ;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    padding:50px ;
+    background-color: black;
+    color:white;
+    /* font-size: 100px; */
+}
+
+
+
+.content-box{
+    background-color: pink;
+    margin: 50px;
+    padding: 30px;
+    border-radius: 25px;
+    align-items: center;
+}
+
+.content-box button{
+    background-color: rgb(67, 169, 27);
+    border-radius: 5px;
+  color: white;
+  border: 2px solid #04AA6D; /* Green */
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 20px;
+ align-items: center;
+  
+
+}
+
+._Button{
+    background-color: rgb(67, 169, 27);
+    border-radius: 5px;
+  color: white;
+  border: 2px solid #04AA6D; /* Green */
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 20px;
+ align-items: center;
+  
+}
+
+
+
+.btn-cntr{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
